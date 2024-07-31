@@ -6,6 +6,7 @@ from openpyxl import load_workbook
 import urllib.parse
 import webbrowser
 
+
 def charger_fichier_1():
     filepath = filedialog.askopenfilename(filetypes=[("Excel files", "*.xlsx")])
     entry_fichier_1.delete(0, tk.END)
